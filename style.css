@@ -1,0 +1,40 @@
+* {
+    background-color: rgb(44, 50, 56);
+    color: rgb(119, 150, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: auto;
+    width: auto;
+}
+
+img {
+    height: auto;
+    max-height: 600px;
+    width: 600px;
+}
+
+a {
+    text-align: center;
+    background-color: rgb(96, 96, 212);
+    color: aliceblue;
+}
+
+div {
+    background-color: rgb(32, 27, 27);
+    color: rgb(65, 85, 85);
+    height: auto;
+    width: 600px;
+}
+
+div.contents a {
+    color: rgb(96, 96, 212);
+}
+
+div * {
+    background-color: rgb(66, 48, 48);
+    color: rgb(136, 197, 197);
+    height: auto;
+    width: fit-content;
+}
